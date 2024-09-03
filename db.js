@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 // MongoDB Connection URI
 //const mongoURI = 'mongodb://127.0.0.1:27017/CarInsights'; // Replace 'CarInsights' with your actual database name
-const mongoURI = 'mongodb+srv://7takreemkhan7:takreem1234@cluster0.rl0yh.mongodb.net/'; 
+const mongoURI = "mongodb+srv://7takreemkhan7:<db_password>@cluster0.rl0yh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; 
 // Function to connect to MongoDB
 const connectDB = async () => {
   try {
