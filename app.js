@@ -22,7 +22,6 @@ connectDB();
 
 app.use(cors());
 // Example in Express.js
-const cors = require('cors');
 app.use(cors({
   origin: 'https://your-frontend-project.netlify.app'
 }));
