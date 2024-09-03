@@ -20,6 +20,12 @@ var app = express();
 connectDB();
 
 
+app.use(cors());
+// Example in Express.js
+const cors = require('cors');
+app.use(cors({
+  origin: 'https://your-frontend-project.netlify.app'
+}));
 
 
 // Set up view engine if needed (e.g., if you have a views folder)
