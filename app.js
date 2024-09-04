@@ -23,7 +23,7 @@ connectDB();
 app.use(cors());
 // Example in Express.js
 app.use(cors({
-  origin: 'https://your-frontend-project.netlify.app'
+  origin: 'https://main--carinsight.netlify.app'
 }));
 
 
